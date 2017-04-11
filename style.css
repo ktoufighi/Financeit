@@ -6,7 +6,7 @@ body {
 }
 table {
     border-spacing: 0;
-    font-family: sans-serif;
+    font-family: 'Raleway', sans-serif;
     color: #333333;
 }
 /*td {
@@ -35,6 +35,7 @@ in: 0 auto;
     width: 100%;
     max-width: 150px;
     padding: 20px 0px 20px 0px;
+    align-items: left;
 }
 .outer {
 Marg
@@ -48,17 +49,88 @@ in: 0 auto;
     height: auto;
 }
 
+.footer p {
+  text-align: center;
+  padding: 0px 15px 0px 15px;
+
+}
+
 .h1 {
   font-size: 40px;
-  font-weight: 800;
+  font-weight: bolder;
   text-align: center;
-  font-family: 'Raleway', sans-serif;
 }
 
 p {
+  padding: 0px 20px 0px 20px;
+}
+
+.inner-content p {
   text-align: left;
   font-size: 16px;
-  font-family: 'Raleway', sans-serif;
   line-height: 1.3;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+.cta .cta-button {
+  font-size: 12px;
+  letter-spacing: 1px;
+  background: green;
+  padding: 10px;
+  color: white;
+  display: inline;
+  font-weight: 700;
+  border: none;
+  border-radius: 1px;
+  box-shadow: 1px 1px 5px #333;
+}
+
+.cta-button:hover:not(.active) {
+    background-color: yellowgreen;
+    color: #333;
+}
+
+.active {
+background-color:#4CAF50;
+border-radius: 1px;
+}
+
+
+.footer img {
+    width: 30px;
+    padding: 2px;
+}
+
+.footer-copy {
+  padding-bottom: 60px;
+  padding-top: 0;
+}
+
+/*Media Queries*/
+@media screen and (max-width: 320px) {
+  .banner {
+  Marg
+  in: 0 auto;
+      width: 100%;
+      max-width: 130px;
+      padding: 20px 0px 20px 0px;
+  }
+
+
+  .h1 {
+    font-size: 30px;
+  }
+
+  .cta .cta-button {
+    width: 90%;
+    max-width: 600px;
+    height: auto;
+  }
+
+}
+
+@media screen and (min-width: 321px) and (max-width: 620px) {
 
 }
