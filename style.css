@@ -9,9 +9,6 @@ table {
     font-family: 'Raleway', arial, helvetica, sans-serif;
     color: #333333;
 }
-/*td {
-    padding: 20px 0 20px 0;
-}*/
 img {
     border: 0;
 }
@@ -35,23 +32,37 @@ in: 0 auto;
     width: 100%;
     max-width: 150px;
     padding: 20px 0px 20px 0px;
-    align-items: left;
 }
 
 .banner full-width-image logo {
-  align-items: center;
+  align-items: left;
 }
+
+.full-width-image img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+
+.footer {
+text-align: center;
+    font-size: 0;
+}
+
+.footer .column {
+  width: 100%;
+    max-width: 600px;
+    display: inline-block;
+    vertical-align: top;
+}
+
 .header {
 Marg
 in: 0 auto;
     width: 100%;
     max-width: 600px;
 }
-.full-width-image img {
-    width: 100%;
-    max-width: 600px;
-    height: auto;
-}
+
 
 .h1 {
   font-size: 40px;
@@ -61,15 +72,6 @@ in: 0 auto;
 
 p {
   padding: 0px 20px 10px 20px;
-}
-
-.inner-content p {
-  text-align: left;
-  font-size: 16px;
-  line-height: 1.3;
-  padding-left: 20px;
-  padding-right: 20px;
-
 }
 
 .cta .cta-button {
@@ -109,6 +111,8 @@ p {
 .footer-copy {
   padding-bottom: 30px;
   padding-top: 0;
+  font-size: 14px;
+  color: #666;
 }
 
 /*Media Queries*/
@@ -116,11 +120,11 @@ p {
   .banner {
   Marg
   in: 0 auto;
-      width: 100%;
-      max-width: 130px;
-      padding: 20px 0px 20px 0px;
+    width: 100%;
+    max-width: 130px;
+    padding: 20px 0px 20px 0px;
+    align-items: center;
   }
-
 
   .h1 {
     font-size: 30px;
