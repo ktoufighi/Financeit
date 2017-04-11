@@ -1,0 +1,64 @@
+/* Basics */
+body {
+    margin: 0 !important;
+    padding: 0;
+    background-color: #fff;
+}
+table {
+    border-spacing: 0;
+    font-family: sans-serif;
+    color: #333333;
+}
+/*td {
+    padding: 20px 0 20px 0;
+}*/
+img {
+    border: 0;
+}
+div[style*="margin: 16px 0"] {
+    margin:0 !important;
+}
+.wrapper {
+    width: 100%;
+    table-layout: fixed;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+.webkit {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.banner {
+Marg
+in: 0 auto;
+    width: 100%;
+    max-width: 150px;
+    padding: 20px 0px 20px 0px;
+}
+.outer {
+Marg
+in: 0 auto;
+    width: 100%;
+    max-width: 600px;
+}
+.full-width-image img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+
+.h1 {
+  font-size: 40px;
+  font-weight: 800;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+p {
+  text-align: left;
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.3;
+
+}
