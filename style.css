@@ -6,7 +6,7 @@ body {
 }
 table {
     border-spacing: 0;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', arial, helvetica, sans-serif;
     color: #333333;
 }
 /*td {
@@ -37,7 +37,11 @@ in: 0 auto;
     padding: 20px 0px 20px 0px;
     align-items: left;
 }
-.outer {
+
+.banner full-width-image logo {
+  align-items: center;
+}
+.header {
 Marg
 in: 0 auto;
     width: 100%;
@@ -49,12 +53,6 @@ in: 0 auto;
     height: auto;
 }
 
-.footer p {
-  text-align: center;
-  padding: 0px 15px 0px 15px;
-
-}
-
 .h1 {
   font-size: 40px;
   font-weight: bolder;
@@ -62,7 +60,7 @@ in: 0 auto;
 }
 
 p {
-  padding: 0px 20px 0px 20px;
+  padding: 0px 20px 10px 20px;
 }
 
 .inner-content p {
@@ -78,7 +76,7 @@ p {
   font-size: 12px;
   letter-spacing: 1px;
   background: green;
-  padding: 10px;
+  padding: 12px;
   color: white;
   display: inline;
   font-weight: 700;
@@ -88,23 +86,28 @@ p {
 }
 
 .cta-button:hover:not(.active) {
-    background-color: yellowgreen;
-    color: #333;
+  background-color: #66cc33;
+  color: #333;
 }
 
 .active {
-background-color:#4CAF50;
-border-radius: 1px;
+  background-color:#4CAF50;
+  border-radius: 1px;
 }
 
+.footer p {
+  text-align: center;
+  padding: 0px 15px 0px 15px;
+
+}
 
 .footer img {
-    width: 30px;
-    padding: 2px;
+  width: 30px;
+  padding: 2px;
 }
 
 .footer-copy {
-  padding-bottom: 60px;
+  padding-bottom: 30px;
   padding-top: 0;
 }
 
